@@ -29,10 +29,10 @@ def speak(text):  # type: ignore
 
 def aiProcess(command):  # type: ignore # UPDATED FUNCTION
     headers = {
-        "Authorization": "Bearer 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",
+        "Authorization": "Api-key here",
         "Content-Type": "application/json",
         "HTTP-Referer": "https://your-site.com",  # Optional
-        "X-Title": "Jarvis Assistant"  # Optional
+        "X-Title": "Zara Assistant"  # Optional
     }
 
     data = { # type: ignore
